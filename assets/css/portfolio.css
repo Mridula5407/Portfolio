@@ -1,0 +1,114 @@
+#zoom {
+    transition: transform 0.4s ease;
+}
+
+#zoom:hover {
+    transform: scale(1.1); /* Adjust the scale value for more or less zoom */
+}
+.navitems{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+#pro1{
+    background-color: black;
+    animation: load1 5s normal forwards;
+
+       
+}
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:85%;
+    }
+}
+.container {
+    display: grid;
+    
+  }
+  
+
+
+
+
+
+#pro3{
+    background-color:black;
+    animation: load2 5s normal forwards;
+    
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+
+#pro4{
+    background-color:  black;
+    animation: load4 5s normal forwards;
+
+ 
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:70%;
+    }
+}
+#pro5{
+    background-color:  black;
+    animation: load5 5s normal forwards;
+
+    
+}
+@keyframes load5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:80%;
+    }
+}
+#pro6{
+    background-color: black;
+    animation: load6 5s normal forwards;
+    
+}
+@keyframes load6{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:80%;
+    }
+}
+.zoom-card{
+    transition: transform 0.2s; 
+}
+.zoom-card:hover {
+    transform: scale(1.1); 
+}
+.card-img-top{
+    height: 12rem;
+    
+}
+input{
+    width:90%;
+    padding: 10px;
+    border: solid black;
+}
+body{
+    
+    /* background-image: conic-gradient(rgb(179, 176, 176), rgb(172, 172, 157), rgb(225, 229, 225)); */
+
+    box-sizing: border-box;
+    width: 100%;
+}
